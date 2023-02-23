@@ -10,7 +10,7 @@
 <body>
     <div class="container">
          <input type="text" id="myresult">
-         <button class="button" onclick="DeleteMe()">C</button>
+         <button class="button" id = "clear" onclick="Delete()">C</button>
          <button class="button" onclick="calculator('(')">(</button>
          <button class="button" onclick="calculator(')')">)</button>
          <button class="button" onclick="calculator('+')">+</button>
@@ -26,10 +26,10 @@
          <button class="button" onclick="calculator('2')">2</button>
          <button class="button" onclick="calculator('3')">3</button>
          <button class="button" onclick="calculator('*')">*</button>
-         <button class="button" onclick="calculator('%')">%</button>
+         <button class="button" onclick="back('←')">←</button>
          <button class="button" onclick="calculator('0')">0</button>
          <button class="button" onclick="calculator('.')">.</button>
-         <button class="button" id="equal" onclick="Answer()">=</button>
+         <button class="button" id="equal" onclick="submit()">=</button>
     </div>
  <script src="script.js"></script>  
 </body>
