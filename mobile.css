@@ -3,6 +3,7 @@
     .button{
         width: 66px;
         height: 70px;
+        margin-left: 2px;
 }
 #myresult{
     width: 300px;
@@ -10,6 +11,6 @@
 
 .container{
     width: 300px;
-    height: 580px;
+    height: 550px;
 }
 }
