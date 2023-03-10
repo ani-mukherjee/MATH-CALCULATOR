@@ -1,0 +1,19 @@
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .button{
+        width: 120px;
+        height: 115px;
+        border: 1px solid black;
+
+}
+#myresult{
+    width: 500px;
+    height: 150px;
+}
+
+.container{
+    width: 500px;
+    height: 740px;
+   
+}
+}
