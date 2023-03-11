@@ -37,6 +37,7 @@
    font-weight:bolder;
    color: white;
    background-color: black;
+   border: 1px solid black;
 }
 .button:hover{
     background-color:rgb(44, 165, 236);
